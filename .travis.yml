@@ -10,7 +10,7 @@ script:
 
 deploy:
     provider: elasticbeanstalk
-    region: ap-south-1a # Specify your region
+    region: ap-south-1 # Specify your region
     app: "react-project-docker" # Copy it from Elastic Beanstalk dashboard
     env: "ReactProjectDocker-env" # Copy it from Elastic Beanstalk dashboard
     bucket_name: "elasticbeanstalk-ap-south-1-611234080868"
